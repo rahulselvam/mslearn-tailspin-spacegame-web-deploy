@@ -56,6 +56,3 @@ steps:
 
 - publish: '$(Build.ArtifactStagingDirectory)'
   artifact: drop
-
-- publish: '$(Build.ArtifactStagingDirectory)'
-  artifact: drop  
