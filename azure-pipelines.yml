@@ -142,6 +142,6 @@ stages:
               azureSubscription: 'Resource Manager - Tailspin - Space Game'
               resourceGroupName: 'azuredevops'
               webAppName: '$(WebAppNameStaging)'
-              sourceSlot: 'swap'
-              targetSlot: 'production'
+              sourceSlot: 'production'
+              targetSlot: 'swap'
               action: 'Swap Slots'
